@@ -8,4 +8,68 @@ html{
 }
 body{
     font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.pageHeader{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.pageHeader-bar{
+    display: flex;
+    width: 100%;
+}
+.pageHeader-bar_one {
+    display: flex;
+    width: 60%;
+    list-style: none;
+}
+.item1, .item2, .item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    width: 20%;
+}
+.item2 {
+    width: 30%;
+}
+.item3 {
+    width: 50%;
+}
+.item2 a, .item3 a  {
+    text-decoration: none;
+}
+.item1 figure{
+    display: flex;
+    align-items: center;
+}
+.pageHeader-bar_two {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    list-style: none;
+}
+.item4, .item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.item4 figure, .item5 figure{
+    display: flex;
+    align-items: center;
+}
+
+.item5 figure img{
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+img{
+    width: 1.8rem;
+    height: 1.8rem;
 }
