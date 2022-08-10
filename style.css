@@ -41,6 +41,7 @@ body{
 }
 .item2 a, .item3 a  {
     text-decoration: none;
+    color: rgb(70, 69, 69);
 }
 .item1 figure{
     display: flex;
@@ -75,7 +76,7 @@ img{
 
 .pageMainContents {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
 .pageMainContents-s1{
     width: 100%;
@@ -92,7 +93,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 15%;
+    height: 20%;
 }
 .pageMainContents-s2_busqueda{
     border: 0.1rem rgb(134, 133, 139) solid;
@@ -128,4 +129,65 @@ img{
    border: none;
    background-color: white;
 }
+.pageMainContents-s3 {
+    font-size: 1.2rem;
+    display: flex;
+}
 
+.pageFooter{
+    background-color: rgb(206, 204, 204);
+}
+.pageFooter-pais p{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: rgb(70, 69, 69);
+}
+.pageFooter-vacio p{
+    height: 2.5rem;
+    border-top: 0.1rem rgb(134, 133, 139) solid;
+    border-bottom: 0.1rem rgb(134, 133, 139) solid;
+}
+.pageFooter-otros {
+    font-size: 1.2rem;
+}
+.pageFooter-otros_l1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.pageFooter-otros_l1 li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}
+.pageFooter-otros_l1 li a, .pageFooter-otros_l2 li a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+}
+.pageFooter-otros_l1 .l1-item1 {
+    width: 60%;
+}
+.pageFooter-otros_l1 .l1-item2 {
+    width: 40%;
+}
+.pageFooter-otros_l1 .l1-item3 {
+    width: 50%;
+}
+.pageFooter-otros_l1 .l1-item4 {
+    width: 50%;
+}
+.pageFooter-otros_l2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.pageFooter-otros_l2 li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 30.33%;
+}
