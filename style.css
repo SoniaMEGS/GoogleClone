@@ -76,7 +76,7 @@ img{
 
 .pageMainContents {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
 }
 .pageMainContents-s1{
     width: 100%;
@@ -190,4 +190,129 @@ img{
     align-items: center;
     height: 2.5rem;
     width: 30.33%;
+}
+
+@media (min-width: 600px) {
+    .pageHeader-bar_one {
+        width: 50%;
+    }
+    .item1 {
+        width: 10%;
+    }
+    .item2 {
+        width: 15%;
+    }
+    .item3 {
+        width: 25%;
+    }
+    .pageHeader-bar_two {
+        width: 50%;
+    }
+    .item4, .item5{
+        width: 15%;
+    }
+    .pageMainContents-s2_busqueda{
+        width: 50%;
+        height: 3rem;
+    }
+    .pageMainContents-s2_busqueda label{
+        width: 85%;
+     }
+     .pageMainContents-s2_botones{
+        width: 50%;
+    }
+    .pageMainContents-s3 {
+        justify-content: center;
+        align-items: flex-end;
+        height: 2rem;
+    }
+    .pageFooter-otros_l1 .l1-item1 {
+        width: 25%;
+    }
+    .pageFooter-otros_l1 .l1-item2 {
+        width: 25%;
+    }
+    .pageFooter-otros_l1 .l1-item3 {
+        width: 25%;
+    }
+    .pageFooter-otros_l1 .l1-item4 {
+        width: 25%;
+    }
+}
+@media (min-width: 900px) {
+    .pageHeader-bar_one {
+        width: 92%;
+        justify-content: end;
+    }
+    .item1 {
+        width: 5%;
+    }
+    .item2 {
+        width: 5%;
+    }
+    .item3 {
+        width: 10%;
+    }
+    .pageHeader-bar_two {
+        width: 8%;
+    }
+    .item4, .item5{
+        width: 50%;
+    }
+    .pageMainContents-s2_busqueda{
+        width: 50%;
+        height: 3rem;
+    }
+    .pageMainContents-s2_busqueda label{
+        width: 85%;
+     }
+     .pageMainContents-s2_botones{
+        width: 50%;
+    }
+    .pageMainContents-s3 {
+        justify-content: center;
+        align-items: flex-end;
+        height: 2rem;
+    }
+    .pageFooter-vacio p{
+        height: 0rem;
+        border-top: 0.05rem rgb(156, 156, 156) solid;
+        border-bottom: 0.05rem rgb(156, 156, 156) solid;
+    }
+    .pageFooter-otros {
+        font-size: 1.2rem;
+        display: flex;
+
+    }
+    .pageFooter-otros_l1 {
+        width: 50%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .pageFooter-otros_l1 .l1-item1 {
+        width: 33%;
+    }
+    .pageFooter-otros_l1 .l1-item2 {
+        width: 18%;
+    }
+    .pageFooter-otros_l1 .l1-item3 {
+        width: 16%;
+    }
+    .pageFooter-otros_l1 .l1-item4 {
+        width: 16%;
+    }
+    .pageFooter-otros_l2{
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .pageFooter-otros_l2 .l2-item1 {
+        width: 14%;
+    }
+    .pageFooter-otros_l2 .l2-item2 {
+        width: 14%;
+    }
+    .pageFooter-otros_l2 .l2-item3 {
+        width: 20%;
+    }
 }
